@@ -1,0 +1,29 @@
+/* 
+    Document   : user_home
+    Created on : 20 Apr, 2023, 12:04:51 AM
+    Author     : soura
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+.stk1{
+    height: 300px;
+    width: 500px;
+    background-image: url("images/images/f6.png");
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    margin: 0% 2% 3% 3%;
+}
+
+.stk2{
+    height: 300px;
+    width: 300px;
+    background-image: url("images/images/f6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0% 2% 3% 1%;
+}

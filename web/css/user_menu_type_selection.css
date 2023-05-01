@@ -1,0 +1,96 @@
+/* 
+    Document   : user_menu_type_selection
+    Created on : 6 Feb, 2023, 10:00:18 AM
+    Author     : soura
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+
+body
+{
+    background-color: white;
+}
+
+
+.menutypediv {
+    margin: 40% 15% 0% 30%;
+    border-color: white;
+    border-radius: 10px;
+}
+
+
+.imageclass1{
+    background-image: url("images/VegLogo2.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 180px;
+    width: 165px;
+}
+
+
+.imageclass2{
+    background-image: url("images/NonVegLogo2.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 180px;
+    width: 165px;
+}
+
+
+
+
+
+.imageclass1:hover
+{
+    background-image: url("images/VegStk.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 0.8;
+    cursor: pointer;
+    height: 220px;
+    width: 205px;
+    position: inherit;
+    margin: 10px 0 0 -20px;
+    
+}
+
+.imageclass2:hover
+{
+    background-image: url("images/Nonvegicon.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 0.8;
+    cursor: pointer;
+    height: 170px;
+    width: 165px;
+    position: inherit;
+    margin-left: 5px;
+    
+}
+
+.vegbutton{
+    opacity: 0.1;
+    height: 300px;
+    width: 300px;
+}
+
+.button{
+    height: 180px;
+    width: 170px;
+    background: transparent; 
+    border: none;
+}
+
+
+.button:hover {
+     
+    background: transparent;
+    border: none;
+}
+
+ 

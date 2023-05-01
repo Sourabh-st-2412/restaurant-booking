@@ -1,0 +1,41 @@
+/* 
+    Document   : user_profile
+    Created on : 29 Apr, 2023, 3:05:19 PM
+    Author     : soura
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+.container1 {
+	max-width: 800px;
+	margin: 10% auto;
+}
+
+.profile {
+	text-align: center;
+	margin-top: 5px;
+}
+
+.box{
+    border: none;
+}
+
+.button
+{
+    text-align: center;
+    height: 30px;
+    width: 100px;
+    background-color: #dbb910;
+    margin: 5% 0% 0% 0%;
+   
+    border-color:white; 
+    font-family: rockwell;
+     cursor: pointer;
+     font-weight: bold;
+     border-radius: 2px;
+     
+}

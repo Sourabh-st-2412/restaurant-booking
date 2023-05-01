@@ -1,0 +1,75 @@
+/* 
+    Document   : registration
+    Created on : 12 Feb, 2023, 11:30:47 AM
+    Author     : soura
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+
+
+body{
+background-image: url("images/Rest1.jpg");
+background-size: 100%;
+background-repeat: no-repeat;
+    
+}
+
+
+    .container1 {
+  width: 30%;
+  height: 500px;
+  margin: 1% 30% 0% 40%;
+  text-align: center;
+  padding: 50px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  
+  background-image: none;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+
+label {
+    color: whitesmoke;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0% auto;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin : 1% 0% 3% 0%;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  backface-visibility: visible;
+  background-color: whitesmoke;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.logoimage{
+    background-image: url("images/Logo1_1.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 120px;
+    width: 22%;
+    margin: 1% 0% 0% 44%;
+    
+}

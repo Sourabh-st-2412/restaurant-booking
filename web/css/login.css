@@ -1,0 +1,143 @@
+kiram/* 
+    Document   : login
+    Created on : 12 Feb, 2023, 11:18:49 AM
+    Author     : soura
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+
+
+.login_div
+{
+   text-align: center;
+    margin-left: 500px;
+    
+    margin-top: 20px;
+    height: 200px;
+    width: 400px;
+ 
+  
+   background-size: cover;
+   background-repeat: no-repeat;
+   border: 2px;
+   border-style: groove;
+   border-color: whitesmoke;
+   padding-top: 20px;
+}
+
+
+
+.usernameclass
+{
+    text-align: center;
+    font-size: 40px;
+    font-family: elephant;
+    color: #ffe6b3;
+    padding-left: 35px;
+    padding-top: 25px;
+    margin-left: 15%;
+    margin-top: 70%; 
+}
+
+
+
+.textbox
+{
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial Rounded MT Bold;
+    font-style: oblique;
+   backface-visibility: visible;
+   color: black;
+    
+    margin: 5% 5% 2% 5%;
+   
+    padding: 15px 55px;
+    
+    height: 20px;
+    width: 300px;
+   border-bottom-style: groove;
+   border-bottom-color: whitesmoke;
+   opacity: 0.7;
+   border-color: whitesmoke;
+   background-color: white;
+   border: 1px solid graytext;
+   
+}
+
+
+
+.submitbutton
+{
+    text-align: center;
+    height: 30px;
+    width: 150px;
+    background-color: #dbb910;
+    margin: 5% 0% 0% 0%;
+   
+    border-color:white; 
+    font-family: rockwell;
+     cursor: pointer;
+     font-weight: bold;
+     border-radius: 2px;
+     
+}
+
+
+
+
+
+.myspan
+{
+    text-align: center;
+    color: white;
+    background-color: blue;
+    font-family: Bookman Old Style;
+    border-color: white;
+    font-weight: bold;
+    
+  border-radius: 1.5px;
+  background-color: blue;
+  border: none;
+  margin: 2% auto;
+    
+}
+
+
+.LoginBorder
+{
+   
+    height: 90%;
+    width: 90%;
+    margin: 1% 5% 2% 5%;
+    border-color: whitesmoke;
+    border-radius: 5px;
+    border-style: inherit;
+    border-width: 1px;
+    
+}
+
+
+.submitbutton:hover
+{
+    background-color: #00cc00;
+    opacity: 0.9;
+    color: white;
+    
+}
+
+.logoimage
+{
+    margin: 10% auto 0% 38.3%;
+}
+
+.see{
+    height: 15px;
+    width: 15px;
+}

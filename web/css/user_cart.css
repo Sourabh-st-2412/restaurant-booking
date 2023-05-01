@@ -1,0 +1,131 @@
+/* 
+    Document   : user_cart
+    Created on : 4 Mar, 2023, 10:29:36 PM
+    Author     : soura
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+
+body
+{
+    background-color:white;
+}
+
+
+.productrow
+{
+    height: 200px;
+    width: 94%;
+    margin-left: 50px;
+    margin-top: 30px;
+    background-color: whitesmoke;
+}
+
+.productimage
+{
+    height:90%;
+    width:20%;
+    background-size: cover;
+    margin: 1% 0% 0% 1%;
+    
+}
+
+.productname
+{
+    margin: 45% 2% 2% 20%;
+    font-family: viga;
+    font-size: 160%;
+}
+
+.price
+{
+    margin: 45% 2% 2% 20%;
+    font-size: 150%;
+}
+
+.approximateprice
+{
+    margin: 45% 2% 2% 20%;
+    font-size: 120%;
+}
+
+.productquantity
+{
+    margin: 45% 2% 1% 5%;
+    height: 40px;
+    width: 40%;
+    background-color:whitesmoke;
+    border-radius: 20px;
+    padding: 1% 0% 0% 15%;
+    
+}
+
+.totalprice{
+    margin: 45% 2% 2% 20%;
+    font-size: 150%;
+}
+
+.totalrow{
+    margin: 0% 0% 0% 40%; 
+}
+
+.savetocart
+{
+    margin: 5% 0% 0% 25%;
+    height: 40px;
+    width: 60%;
+    border-radius: 20px;  
+}
+
+
+.totalbox
+{
+    margin: 2% 0% 0% 45%;
+    height:50px;
+    width: 300px;
+}
+
+.paybutton{
+    margin: 0% 0% 0% 10%;
+    height: 30px;
+    font-weight: bolder;
+    background-color: #dbb910;
+}
+
+.button{
+    height: 40px;
+    width: 90px;
+}
+
+.ok_button{
+    margin: 1% 0% 0% 45%;
+}
+
+.paybutton:hover{
+    background-color: #00cc00;
+    opacity: 0.9;
+    color: white;
+}
+
+.radiobutton1{
+    height: 15px;
+    size: 30px;
+    margin: 10px 30px 5px 10px;
+}
+
+.radiobutton2{
+    height: 15px;
+    size: 30px;
+    margin: 10px 30px 5px 10px;
+}
+
+.radiobutton3{
+    height: 15px;
+    size: 30px;
+    margin: 10px 30px 5px 10px;
+}

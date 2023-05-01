@@ -1,0 +1,95 @@
+/* 
+    Document   : user_booking
+    Created on : 19 Feb, 2023, 11:56:35 AM
+    Author     : soura
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+ 
+.imageclass{
+    margin: 15px 0 0 15px;
+    height: 750px;
+    width: 600px;
+    background-image: url(images/Table5.jpg);
+    background-size: cover;
+}
+    
+body{
+    background-color: whitesmoke;
+}
+
+.row{
+    margin: 20px auto;
+}
+
+.guest_no,.date,.roomtype,.shift{
+    height: 30px;
+    width: 150px;
+    border: none;
+    margin: 20px 0px 10px 15px;
+}
+
+.timeslot{
+    height: 25px;
+    width: 50px;
+    background-color: white;
+    border: none;
+    margin: 0px 10px 0px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.imageclass:hover{
+    margin: 15px 0 0 15px;
+    height: 750px;
+    width: 600px;
+    background-image: url(images/Table4.jpg);
+    background-size: cover;
+}
+
+.guest_no:hover{
+    height: 35px;
+    width: 155px;
+    position: inherit;
+    opacity: 0.9;
+    icon: inherit;
+}
+
+.roomtype:hover{
+     height: 35px;
+    width: 155px;
+    position: inherit;
+    opacity: 0.9;
+    icon: inherit;
+}
+
+.shift:hover{
+     height: 35px;
+    width: 155px;
+    position: inherit;
+    opacity: 0.9;
+    icon: inherit;
+}
+
+.date:hover{
+     height: 35px;
+    width: 155px;
+    position: inherit;
+    opacity: 0.9;
+    icon: inherit;
+}

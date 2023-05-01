@@ -1,0 +1,182 @@
+/* 
+    Document   : user_product_selection
+    Created on : 3 Feb, 2023, 3:58:18 PM
+    Author     : soura
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+.header_section{
+    margin-bottom: 3%;
+}
+
+body
+{
+    background-color: white;
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.productdiv
+{
+    border-radius: 8px;
+    background-color: white;
+    height: 150px;
+    width: 150px;
+    margin : 15% 0 10% 20px;
+}
+
+.imageclass
+{
+    height: 120px;
+    width: 150px;
+}
+
+.productlabel
+{
+    margin: 2% 0% 1% auto; 
+    font-family: inherit;
+}
+
+.sellproductdiv
+{
+    height: 400px;
+    width: 300px;
+    background-color: whitesmoke;
+    margin: 70px 20px 75px 30px;
+}
+
+.sellimageclass
+{
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+}
+
+.addtocartbutton
+{
+    margin-top: 27px;
+    width: 100%;
+    height: 40px;
+    font-weight: bolder;
+    background-color: #dbb910;
+}
+
+.logoclass
+{
+    height: 30px;
+    width: 30px;
+    
+}
+
+.imageclass1{
+    background-image: url("images/Starter2.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120px;
+    width:150px;
+}
+
+.imageclass2{
+    background-image: url("images/NonvegMain1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120px;
+    width:150px;
+}
+
+.imageclass3{
+    background-image: url("images/Roti1.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120px;
+    width:150px;
+}
+
+.imageclass4{
+    background-image: url("images/Rice1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120px;
+    width:150px;
+}
+
+.imageclass5{
+    background-image: url("images/ThaliSticker.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120px;
+    width:150px;
+}
+
+.imageclass6{
+    background-image: url("images/Beverages1.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120px;
+    width:150px;
+}
+
+.imageclass7{
+    background-image: url("images/Salad2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120px;
+    width:150px;
+}
+
+.imageclass8{
+    background-image: url("images/Gulabjamun1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120px;
+    width:150px;
+}
+
+.imageclass9{
+    background-image: url("images/images/a1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120px;
+    width:150px;
+}
+
+
+.productdiv:hover{
+    position: inherit;
+    cursor: pointer;
+    opacity: 0.7;
+    height: 160px;
+    width: 150px;
+    color: blue;
+}
+
+.productlabel:hover{
+    cursor: pointer;
+    color: blue;
+    
+}
+
+.addtocartbutton:hover{
+    color: whitesmoke;
+    transform: scale(1.1);
+}
+
+.sellproductdiv:hover{
+    height: 370px;
+    position: inherit;
+
+}
+
+
+.button{
+    height: 120px;
+    width: 150px;
+    background: transparent;
+    border: none;
+}

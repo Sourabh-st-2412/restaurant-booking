@@ -1,0 +1,52 @@
+/* 
+    Document   : user_myorder
+    Created on : 29 Mar, 2023, 7:28:52 PM
+    Author     : soura
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+body {
+	background-color: #f1f1f1;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+
+.container1 {
+	background-color: #fff;
+	padding: 20px;
+	margin: 7% auto;
+	max-width: 900px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+h1, h2 {
+	font-weight: bold;
+	color: #4CAF50;
+	margin-bottom: 20px;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td {
+	text-align: left;
+	padding: 9px;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+th {
+	background-color: #4CAF50;
+	color: white;
+}

@@ -1,0 +1,49 @@
+/* 
+    Document   : user_feedback
+    Created on : 18 Mar, 2023, 4:39:03 PM
+    Author     : soura
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+form {
+	background-color: #fff;
+	padding: 20px;
+	margin: 50px auto;
+	max-width: 600px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+label {
+	display: block;
+	margin-top: 20px;
+}
+input, textarea {
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 0 0 5px rgba(0,0,0,0.2);
+	width: 100%;
+	font-size: 16px;
+	margin-top: 5px;
+}
+textarea {
+	resize: vertical;
+	min-height: 150px;
+}
+input[type="submit"] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	float: right;
+}
+input[type="submit"]:hover {
+	background-color: #45a049;
+}

@@ -1,0 +1,84 @@
+/* 
+    Document   : user_payment
+    Created on : 18 Mar, 2023, 5:15:51 PM
+    Author     : soura
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+body {
+	background-color: #f1f1f1;
+	font-family: 'Roboto', sans-serif;
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 20px;
+}
+
+.container {
+	background-color: #fff;
+	padding: 20px;
+	margin: 50px auto;
+	max-width: 500px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+label {
+	font-weight: bold;
+	margin-bottom: 10px;
+	display: block;
+}
+
+input[type="text"] {
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+.card-info {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}
+
+input[type="text"]#expiryDate {
+	width: 60%;
+}
+
+input[type="text"]#cvv {
+	width: 35%;
+}
+
+input[type="submit"] {
+	background-color: #4CAF50;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #3e8e41;
+}

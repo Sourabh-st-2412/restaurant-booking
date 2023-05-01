@@ -1,0 +1,154 @@
+/* 
+    Document   : index
+    Created on : 18 Mar, 2023, 5:36:40 PM
+    Author     : soura
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+header nav {
+  float: right;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Hero Image */
+.hero-image {
+  background-image: url('hero-image.jpg');
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero-image h1 {
+  font-size: 4em;
+  color: #fff;
+  text-shadow: 2px 2px #333;
+  margin-bottom: 0;
+}
+
+.hero-image p {
+  font-size: 2em;
+}
+
+.image1{
+    background-image: url("images/Starter2.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width:300px;
+}
+
+.image2{
+    background-image: url("images/Starter1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width:300px;
+}
+
+.image3{
+    background-image: url("images/Soup1.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width:300px;
+}
+
+.image4{
+    background-image: url("images/Salad2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width:300px;
+}
+
+.offer{
+    height: 350px;
+    width: 60%;
+    
+}
+
+
+.stk1{
+    height: 300px;
+    width: 500px;
+    background-image: url("images/Stk1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    margin: 0% 2% 3% 3%;
+}
+
+.stk2{
+    height: 300px;
+    width: 300px;
+    background-image: url("images/Stk3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0% 2% 3% 1%;
+}
+
+.stk3{
+    height: 300px;
+    width: 700px;
+    background-image: url("images/Stk2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    margin: 2% 3% 3% 13%;
+}
+
+.stk4{
+    height: 300px;
+    width: 300px;
+    background-image: url("images/Stk4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 3% 1% 4% 4%;
+}
+
+.stk5{
+    height: 300px;
+    width: 250px;
+    background-image: url("images/Stk5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    margin: 3% 1% 4% 1%;
+}
